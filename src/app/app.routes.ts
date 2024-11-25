@@ -1,6 +1,5 @@
 import { Routes } from '@angular/router';
 import { DashboardComponent } from './Administrador/dashboard/dashboard.component';
-import { HomePageComponent } from './home/home-page/home-page.component';
 import { ClientesComponent } from './Administrador/gerenciamento/clientes/clientes.component';
 import { ProfissionaisComponent } from './Administrador/gerenciamento/profissionais/profissionais.component';
 import { ServicosComponent } from './Administrador/gerenciamento/servicos/servicos.component';
@@ -10,10 +9,6 @@ import { ChamadoComponent } from './Administrador/analise/chamado/chamado.compon
 export const routes: Routes = [
     {
         path: '',
-        component: HomePageComponent
-    },
-    {
-        path: 'administrador/dashboard',
         component: DashboardComponent
     },
     {
